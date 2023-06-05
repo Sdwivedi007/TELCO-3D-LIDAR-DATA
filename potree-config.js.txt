@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Potree viewer options
   var viewer = new Potree.Viewer(container, {
     // Specify the path to your Potree data files
-    path: 'path/to/your/data',
+    path: 'https://drive.google.com/file/d/1VQ-YP36E4BjVEp_gEc6EwQpvr947u45t/view?usp=drive_link',
     // Customize viewer options as per your requirements
     // For example:
     pointSize: 1,
