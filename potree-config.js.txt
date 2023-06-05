@@ -1,0 +1,22 @@
+document.addEventListener('DOMContentLoaded', function () {
+  // Potree container element
+  var container = document.getElementById('potree-container');
+
+  // Potree viewer options
+  var viewer = new Potree.Viewer(container, {
+    // Specify the path to your Potree data files
+    path: 'path/to/your/data',
+    // Customize viewer options as per your requirements
+    // For example:
+    pointSize: 1,
+    showBoundingBox: false,
+    useHQ: true
+  });
+
+  // Add any additional configuration or customization here
+
+  // Load the Potree point cloud data
+  viewer.loadGUI(() => {
+    viewer.loadPointCloud('your-point-cloud', 'path/to/your/data/cloud.js', 'path/to/your/data/cloud');
+  });
+});

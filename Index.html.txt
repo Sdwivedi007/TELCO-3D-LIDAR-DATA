@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Potree Visualization</title>
+    <!-- Add Potree dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.133.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/potree@1.7.0/build/potree/potree.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/potree@1.7.0/build/potree/potree.css">
+  </head>
+  <body>
+    <!-- Potree container element -->
+    <div id="potree-container"></div>
+    <!-- Add your Potree configuration and initialization code here -->
+    <script src="potree-config.js"></script>
+  </body>
+</html>
